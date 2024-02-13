@@ -1,0 +1,151 @@
+\documentclass[a4paper, uplatex]{jlreq}
+
+%パッケージを使おう
+\usepackage[dvipdfmx]{graphicx}
+
+%プリアンブル（オプションの指定。ない場合もある。）
+\title{\TeX の使用方法について}
+\author{野田慧太朗}
+\date{\today}
+
+%マクロ使ってみた
+\newcommand{\CL}{コンピューターリテラシー}
+\newcommand{\明石}{明石工業高等専門がおっこう電機情報工学科}
+
+\begin{document}
+	%maketitle命令（タイトル、著者、日付を出力）
+	\maketitle
+	
+	%目次はtableofcontents
+	\tableofcontents
+	
+	%ページのフォントを指定
+	\pagenumbering{roman}	
+	
+	%(this)pagestyleコマンドでヘッダ、フッダを指定できる。
+	\pagestyle{headings}
+	
+	%ページはpageという変数に格納されているので、setcounter コマンドで変更できる！
+	\setcounter{page}{1}
+	
+	%newpage コマンドでページを更新
+	\newpage
+	
+	\section{はじめに}
+	
+	これは\TeX の文書の例です。
+	
+	行を変える時には、このように\textbf{1行空白の行が必要}です。
+	数式も書いてみましょう。
+	
+	\[
+	S=\int_a^b f(x) dx
+	\]
+	
+	\section{文書の作り方}
+	章や節の番号は自動的に振り分けられる。下に例を示す。
+	%\chapter{これは最初の章}
+	
+	\section{これは最初の節}
+	
+	\subsection{これは最初の節の最初の行}
+	
+	\section{これは次の節}
+	title, author, date命令で（プリアンブルに書く！）文書のタイトル、著者、日付などを設定して、maketitle命令で出力できるぞ！
+	
+	(date コマンドはなくしても意味がないので、date{} とする必要がある。)
+	
+	\newpage
+	
+	\section{数式を書くぞーーー！}
+	\subsection{テキスト用数式モード(インライン数式モード)}
+	文章中に$S=a+b$という形で混ざって出力されます。
+	
+	積分記号$\int_a^bf(x)dx$や和は$\sum_{i=0}^{10} x_i$は行間隔を乱さないように狭く出力されます。
+	
+	\subsection{ディスプレイ用数式モード}
+	\subsubsection{プレーン}
+	文章とは独立してこのように
+	\[
+	\int_a^b f (x) dx
+	\]
+	出力されます。
+	
+	\subsubsection{式番あり}
+	文章とは独立してこのように
+	\begin{equation}
+		\int_a^b f (x) dx
+	\end{equation}
+	出力されます。
+	
+	\subsubsection{複数行の数式}
+	複数行にわたる数式もこの通り。
+	\begin{eqnarray}
+		F(x) &=& \int_{-\infty}^x f(\zeta)d\zeta\\
+		&=& \log |\tan(x)+1|
+	\end{eqnarray}
+	
+	\subsubsection{複数行の数式（式番なし）}
+	複数行にわたる数式もこの通り。
+	\begin{eqnarray*}
+		F(x) &=& \int_{-\infty}^x f(\zeta)d\zeta\\
+		&=& \log |\tan(x)+1|
+	\end{eqnarray*}
+	
+	\newpage
+	
+	\section{表DAZE☆}
+	\subsection{表1DAZE☆} 
+	\begin{tabular}{|c|l|p{15mm}|} \hline
+		月& 別名& よみがな\\ \hline\hline
+		1月& 睦月& むつき\\
+		2月& 如月& きさらぎ\\
+		3月& 弥生& やよい\\
+		4月& 卯月& うづき\\ \hline 
+	\end{tabular} \\
+	\subsection{表2DAZE☆}
+	\begin{tabular}{|c|c|c|c|}\hline
+		& \multicolumn{2}{|c|}{条件} & \\ \cline{2-3}
+		試料& 温度 & 圧力 & 備考 \\ \hline
+		1 & 10 & 3 & ちょっと悪い \\ \hline
+		1 & 20 & 6 & 結構いい\\
+		3 & 40 & 1 & かなり悪い　\\ \hline
+	\end{tabular} \\
+	\subsection{表3DZE☆}
+	\begin{table}[http]
+		\centering
+		\caption{月の別名}
+		\label{month-name}
+		\begin{tabular}[t]{|c|l|p{15mm}|}\hline
+			月& 別名& 読み仮名\\ \hline\hline
+			1月& 睦月& むつき\\
+			2月& 如月& きさらぎ\\ \hline
+		\end{tabular}
+	\end{table}
+	日本では、表\ref{month-name}に示すように月の別名が定められていて、よく用いられます。
+	
+	\newpage
+	\section{図を入れてみた}
+	\subsection{図\ref{nandk1}だドン}
+	\begin{figure}[http]
+		\centering
+		\includegraphics[scale=1]{C:/Users/knoda/OneDrive/ドキュメント/NandK.png}
+		\caption{NANDKアイコン}
+		\label{nandk1}
+	\end{figure}
+	
+	\newpage
+	\subsection{歪んだ図\ref{nandk2}だドン}
+	\begin{figure}[http]
+		\centering
+		\includegraphics[width=100mm, angle=45]{C:/Users/knoda/OneDrive/ドキュメント/NandK.png}
+		\caption{歪んだNANDKアイコン}
+		\label{nandk2}
+	\end{figure}
+	
+	
+	
+	
+	
+	
+\end{document}
