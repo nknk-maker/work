@@ -74,3 +74,102 @@ correlation matrix of the fit parameters:
 a0              1.000 
 a1              0.000  1.000 
 a2             -0.000 -0.004  1.000 
+
+
+*******************************************************************************
+Fri Feb 16 09:10:58 2024
+
+
+FIT:    data read from 'akashi.dat'
+        format = z
+        x range restricted to [-10.0000 : 10.0000]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(a,b,c,x)=a*x**2+b*x+c
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Fri Feb 16 09:12:00 2024
+
+
+FIT:    data read from 'akashi.dat'
+        format = z
+        x range restricted to [-10.0000 : 10.0000]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x)=a*x**5+b*x**4+c*x**3+d*x**2+e*x+f
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c             d             e             f            
+   0 1.8639036036e+10   0.00e+00  1.59e+04    1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00
+   9 2.4413799534e+00  -4.94e-06  1.59e-05   -1.461538e-03   4.269814e-02  -6.028438e-01   4.144901e+00  -8.514156e+00   1.070667e+01
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 2.44138
+rel. change during last iteration : -4.93705e-11
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.781246
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.610345
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = -0.00146154      +/- 0.002797     (191.4%)
+b               = 0.0426981        +/- 0.07717      (180.7%)
+c               = -0.602844        +/- 0.7855       (130.3%)
+d               = 4.1449           +/- 3.605        (86.98%)
+e               = -8.51416         +/- 7.207        (84.65%)
+f               = 10.7067          +/- 4.761        (44.46%)
+
+correlation matrix of the fit parameters:
+                a      b      c      d      e      f      
+a               1.000 
+b              -0.997  1.000 
+c               0.985 -0.996  1.000 
+d              -0.960  0.979 -0.993  1.000 
+e               0.915 -0.941  0.967 -0.989  1.000 
+f              -0.840  0.872 -0.907  0.944 -0.979  1.000 
+
+
+*******************************************************************************
+Fri Feb 16 09:17:13 2024
+
+
+FIT:    data read from "akashi.dat" u 2:3
+        format = x:z
+        #datapoints = 12
+        residuals are weighted equally (unit weight)
+
+function used for fitting: T(x)
+	T(x)=a0+a1*sin(2*pi*x/12+a2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0            a1            a2           
+   0 2.0462779745e+05   0.00e+00  8.16e-01    1.000000e+00   1.000000e+00   1.000000e+00
+  22 2.7694941360e+04  -2.39e-01  8.16e-05    1.224434e+02   4.000562e+01   2.037199e+01
+
+After 22 iterations the fit converged.
+final sum of squares of residuals : 27694.9
+rel. change during last iteration : -2.38839e-06
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 55.4727
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3077.22
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 122.443          +/- 16.13        (13.18%)
+a1              = 40.0056          +/- 22.32        (55.79%)
+a2              = 20.372           +/- 0.6081       (2.985%)
+
+correlation matrix of the fit parameters:
+                a0     a1     a2     
+a0              1.000 
+a1              0.113  1.000 
+a2             -0.021  0.214  1.000 

@@ -1,16 +1,20 @@
-\contentsline {section}{\numberline {1}はじめに}{ii}
-\contentsline {section}{\numberline {2}文書の作り方}{ii}
-\contentsline {section}{\numberline {3}これは最初の節}{ii}
-\contentsline {subsection}{\numberline {3.1}これは最初の節の最初の行}{ii}
-\contentsline {section}{\numberline {4}これは次の節}{ii}
-\contentsline {section}{\numberline {5}数式を書くぞーーー！}{iii}
-\contentsline {subsection}{\numberline {5.1}テキスト用数式モード(インライン数式モード)}{iii}
-\contentsline {subsection}{\numberline {5.2}ディスプレイ用数式モード}{iii}
-\contentsline {subsubsection}{\numberline {5.2.1}プレーン}{iii}
-\contentsline {subsubsection}{\numberline {5.2.2}式番あり}{iii}
-\contentsline {subsubsection}{\numberline {5.2.3}複数行の数式}{iii}
-\contentsline {subsubsection}{\numberline {5.2.4}複数行の数式（式番なし）}{iii}
-\contentsline {section}{\numberline {6}表DAZE☆}{iv}
-\contentsline {subsection}{\numberline {6.1}表1DAZE☆}{iv}
-\contentsline {subsection}{\numberline {6.2}表2DAZE☆}{iv}
-\contentsline {subsection}{\numberline {6.3}表3DZE☆}{iv}
+\contentsline {section}{\numberline {1}はじめに}{ii}{}%
+\contentsline {section}{\numberline {2}文書の作り方}{ii}{}%
+\contentsline {section}{\numberline {3}これは最初の節}{ii}{}%
+\contentsline {subsection}{\numberline {3.1}これは最初の節の最初の行}{ii}{}%
+\contentsline {section}{\numberline {4}これは次の節}{ii}{}%
+\contentsline {section}{\numberline {5}数式を書くぞーーー！}{iii}{}%
+\contentsline {subsection}{\numberline {5.1}テキスト用数式モード(インライン数式モード)}{iii}{}%
+\contentsline {subsection}{\numberline {5.2}ディスプレイ用数式モード}{iii}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}プレーン}{iii}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}式番あり}{iii}{}%
+\contentsline {subsubsection}{\numberline {5.2.3}複数行の数式}{iii}{}%
+\contentsline {subsubsection}{\numberline {5.2.4}複数行の数式（式番なし）}{iii}{}%
+\contentsline {section}{\numberline {6}表DAZE☆}{iv}{}%
+\contentsline {subsection}{\numberline {6.1}表1DAZE☆}{iv}{}%
+\contentsline {subsection}{\numberline {6.2}表2DAZE☆}{iv}{}%
+\contentsline {subsection}{\numberline {6.3}表3DZE☆}{iv}{}%
+\contentsline {section}{\numberline {7}図を入れてみた}{v}{}%
+\contentsline {subsection}{\numberline {7.1}図\ref {nandk1}だドン}{v}{}%
+\contentsline {subsection}{\numberline {7.2}歪んだ図\ref {nandk2}だドン}{vi}{}%
+\contentsline {section}{\numberline {8}箇条書きを使ってみた}{vii}{}%

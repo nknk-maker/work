@@ -1,79 +1,84 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.25-190908-2.6 (utf8.uptex) (TeX Live 2019/Debian) (preloaded format=uplatex 2023.10.4)  15 FEB 2024 18:35
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.12.17)  16 FEB 2024 09:56
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
  %&-line parsing enabled.
 **ex1.tex
 (./ex1.tex
-pLaTeX2e <2020-02-02u03>+2 (based on LaTeX2e <2020-02-02> patch level 2)
-L3 programming layer <2020-02-14>
-(/usr/share/texlive/texmf-dist/tex/latex/jlreq/jlreq.cls
-Document Class: jlreq 2020/02/07 jlreq
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+pLaTeX2e <2023-02-14u04>+1, based on
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-12-11>
+(c:/texlive/2023/texmf-dist/tex/latex/jlreq/jlreq.cls
+Document Class: jlreq 2023/06/19 jlreq
+(c:/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(c:/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-12-11 L3 programming layer (loader) 
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks15
-\XKV@tempa@toks=\toks16
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count166
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+(c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+File: l3backend-dvips.def 2023-11-09 L3 backend support: dvips
+\l__pdf_internal_box=\box68
+\g__pdf_backend_object_int=\count186
+\l__pdf_backend_content_box=\box69
+\l__pdf_backend_model_box=\box70
+\g__pdf_backend_annotation_int=\count187
+\g__pdf_backend_link_int=\count188
+\g__pdf_backend_link_sf_int=\count189
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/everyhook/everyhook.sty
-(/usr/share/texlive/texmf-dist/tex/latex/svn-prov/svn-prov.sty
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+)
+(c:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count190
+)
+(c:/texlive/2023/texmf-dist/tex/latex/jlreq/jlreq-helpers.sty
+Package: jlreq-helpers 2023/06/19 jlreq-helpers
+\jlreq@tempcnta=\count191
+\jlreq@tempcntb=\count192
+\jlreq@tempcntc=\count193
+\jlreq@tempdima=\dimen156
+\jlreq@tempdimb=\dimen157
+\jlreq@tempdimc=\dimen158
+\jlreq@tempskipa=\skip48
+\jlreq@tempskipb=\skip49
+\jlreq@tempskipc=\skip50
+\jlreq@tempboxa=\box71
+\jlreq@tempboxb=\box72
+\jlreq@tempboxc=\box73
+\jlreq@resultdimen=\dimen159
+\jlreq@resultskip=\skip51
+\jlreq@resultbox=\box74
+\jlreq@resultcnt=\count194
+\jlreq@reference@count=\count195
+\jlreq@currentpage=\count196
+)
+\l__jlreq_tmpa_int=\count197
+\l__jlreq_tmpa_dim=\dimen160
+\l_jlreq_tmpa_skip=\skip52
+\l_jlreq_tmpa_box=\box75
+\l_jlreq_tmpb_box=\box76
+\l_jlreq_tmpc_box=\box77
+
+(c:/texlive/2023/texmf-dist/tex/latex/everyhook/everyhook.sty
+(c:/texlive/2023/texmf-dist/tex/latex/svn-prov/svn-prov.sty
 Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
 Package: everyhook 2014/11/26 v1.2 (SVN Rev: 12)\ Hooks for low level TeX every
 X primitives.
+\everypar=\toks18
+\frozen@everymath=\toks19
+\frozen@everydisplay=\toks20
+\everyhbox=\toks21
+\everyvbox=\toks22
+\everycr=\toks23
+)
+\jlreq@current@linewidth=\dimen161
+\jlreq@rest@linewidth=\dimen162
+\jlreq@lastnodechar=\count198
+\jlreq@fontsize=\dimen163
+\jlreq@jafontsize=\dimen164
 
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count167
-)
-\everypar=\toks17
-\frozen@everymath=\toks18
-\frozen@everydisplay=\toks19
-\everyhbox=\toks20
-\everyvbox=\toks21
-\everycr=\toks22
-)
-(/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
-Package: filehook 2020/02/03 v0.7 Hooks for input files
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/jlreq/jlreq-helpers.sty
-Package: jlreq-helpers 2018/08/15 jlreq-helpers
-\jlreq@tempcnta=\count168
-\jlreq@tempcntb=\count169
-\jlreq@tempcntc=\count170
-\jlreq@tempdima=\dimen150
-\jlreq@tempdimb=\dimen151
-\jlreq@tempdimc=\dimen152
-\jlreq@tempskipa=\skip47
-\jlreq@tempskipb=\skip48
-\jlreq@tempskipc=\skip49
-\jlreq@tempboxa=\box61
-\jlreq@tempboxb=\box62
-\jlreq@tempboxc=\box63
-\jlreq@resultdimen=\dimen153
-\jlreq@resultskip=\skip50
-\jlreq@resultbox=\box64
-\jlreq@resultcnt=\count171
-\jlreq@reference@count=\count172
-\jlreq@currentpage=\count173
-)
-\jlreq@current@linewidth=\dimen154
-\jlreq@rest@linewidth=\dimen155
-\jlreq@lastnodechar=\count174
-\jlreq@fontsize=\dimen156
-\jlreq@jafontsize=\dimen157
-
-(/usr/share/texmf/tex/latex/lm/lmodern.sty
-Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+(c:/texlive/2023/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
@@ -109,82 +114,87 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 )
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 1001.
+(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 1140.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 1069.
+(Font)              scaled to size 10.0pt on input line 1208.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 10.0pt on input line 1069.
-\jlreq@baselineskip=\dimen158
-\jlreq@omotekeiwidth=\dimen159
-\jlreq@chuubusokeiwidth=\dimen160
-\jlreq@urakeiwidth=\dimen161
-\jlreq@footnoteindent=\dimen162
-\jlreq@sidenote@length=\dimen163
-\jlreq@sidenote@sep=\dimen164
+(Font)              scaled to size 10.0pt on input line 1208.
+\jlreq@baselineskip=\dimen165
+\jlreq@omotekeiwidth=\dimen166
+\jlreq@chuubusokeiwidth=\dimen167
+\jlreq@urakeiwidth=\dimen168
+\jlreq@sidenote@length=\dimen169
+\jlreq@sidenote@sep=\dimen170
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.00003pt on input line 1260.
+(Font)              scaled to size 8.00003pt on input line 1395.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.00003pt on input line 1260.
-\jlreq@BlockHeading@start@label@box=\box65
-\jlreq@BlockHeading@spaces@current@count=\count175
-\c@part=\count176
-\c@section=\count177
-\c@subsection=\count178
-\c@subsubsection=\count179
-\c@paragraph=\count180
-\c@subparagraph=\count181
-\jlreq@endnote@prepostspace=\dimen165
-\jlreq@endnote@indent=\dimen166
-\jlreq@PageStyle@box=\box66
-\abovecaptionskip=\skip51
-\belowcaptionskip=\skip52
-\c@figure=\count182
-\c@table=\count183
-\jlreq@abstractbox=\box67
-\toclineskip=\skip53
-\@lnumwidth=\dimen167
-\jlreq@top@contents=\count184
-\bibindent=\dimen168
+(Font)              scaled to size 8.00003pt on input line 1395.
+\jlreq@BlockHeading@start@label@box=\box78
+\jlreq@BlockHeading@spaces@current@count=\count199
+\c@part=\count266
+\c@section=\count267
+\c@subsection=\count268
+\c@subsubsection=\count269
+\c@paragraph=\count270
+\c@subparagraph=\count271
+\jlreq@endnote@prepostspace=\dimen171
+\jlreq@endnote@indent=\dimen172
+\jlreq@PageStyle@box=\box79
+\abovecaptionskip=\skip53
+\belowcaptionskip=\skip54
+\c@figure=\count272
+\c@table=\count273
+\jlreq@abstractbox=\box80
+\toclineskip=\skip55
+\@lnumwidth=\dimen173
+\jlreq@top@contents=\count274
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 5754.
+(Font)              scaled to size 8.99994pt on input line 6387.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 5754.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+(Font)              scaled to size 8.99994pt on input line 6387.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2023/texmf-dist/tex/latex/jlreq/jlreq-complements.sty
+Package: jlreq-complements 2022/11/28 jlreq-complements
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(c:/texlive/2023/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2022/10/25 v0.8b Hooks for input files
+
+(c:/texlive/2023/texmf-dist/tex/latex/filehook/filehook-2020.sty
+Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
+))))
+(c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvipdfmx.def on input line 105.
+Package graphics Info: Driver file: dvipdfmx.def on input line 107.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
-File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+(c:/texlive/2023/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
 ))
-\Gin@req@height=\dimen169
-\Gin@req@width=\dimen170
+\Gin@req@height=\dimen174
+\Gin@req@width=\dimen175
 )
-(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+(c:/texlive/2023/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2020-02-03 L3 backend support: dvips
-\l__pdf_internal_box=\box68
-\g__pdf_backend_object_int=\count185
-\l__pdf_backend_content_box=\box69
-\l__pdf_backend_model_box=\box70
-\g__pdf_backend_annotation_int=\count186
-\g__pdf_backend_link_int=\count187
-\g__pdf_backend_link_sf_int=\count188
-)
-(./ex1.aux)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+6.
+ (c:/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (./ex1.aux)
 \openout1 = `ex1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -205,14 +215,6 @@ LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
- (I search kanjifont definition file: . . )
-(I search font definition file: . . . . . . . )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-6.
-
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 17.0pt on input line 18.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
@@ -223,21 +225,20 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 12.0pt on input line 18.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
 8.
-
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+ (c:/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
 18.
 
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(c:/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
 18.
 
-(/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(c:/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 18.
@@ -253,21 +254,21 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 14.0pt on input line 21.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 14.0pt on input line 21.
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-21.
-
-(/usr/share/texmf/tex/latex/lm/ot1lmss.fd
-File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 14.0pt on input line 21.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 14.0pt on input line 21.
-LaTeX Font Info:    Font shape `JT2/gt/b/n' in size <14> not available
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
+21.
+
+(c:/texlive/2023/texmf-dist/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <14> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 14.0pt on input line 21.
-LaTeX Font Info:    Font shape `JY2/gt/b/n' in size <14> not available
+LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <14> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 14.0pt on input line 21.
@@ -289,11 +290,11 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
  [1
 
 ]
-LaTeX Font Info:    Font shape `JT2/mc/b/n' in size <10> not available
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 10.0pt on input line 39.
-LaTeX Font Info:    Font shape `JY2/mc/b/n' in size <10> not available
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 10.0pt on input line 39.
@@ -301,45 +302,65 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 12.0pt on input line 53.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 12.0pt on input line 53.
-LaTeX Font Info:    Font shape `JT2/gt/b/n' in size <12> not available
+LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <12> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 12.0pt on input line 53.
-LaTeX Font Info:    Font shape `JY2/gt/b/n' in size <12> not available
+LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <12> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 12.0pt on input line 53.
  [2]
-LaTeX Font Info:    Font shape `JT2/gt/b/n' in size <10> not available
+LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <10> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 10.0pt on input line 69.
-LaTeX Font Info:    Font shape `JY2/gt/b/n' in size <10> not available
+LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <10> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 10.0pt on input line 69.
- [3]
+
+[3]
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 118.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 118.
-LaTeX Font Info:    Font shape `JT2/gt/b/n' in size <8.99994> not available
+LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <8.99994> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 118.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 118.
-LaTeX Font Info:    Font shape `JY2/gt/b/n' in size <8.99994> not available
+LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <8.99994> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 118.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 118.
-
-Excluding 'comment' comment. [4] (./ex1.aux) ) 
+ [4]
+File: C:/Users/knoda/OneDrive/ドキュメント/NandK.png Graphic file (type b
+mp)
+<C:/Users/knoda/OneDrive/ドキュメント/NandK.png>
+ [5]
+File: C:/Users/knoda/OneDrive/ドキュメント/NandK.png Graphic file (type b
+mp)
+<C:/Users/knoda/OneDrive/ドキュメント/NandK.png>
+ [6]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+50.
+ (c:/texlive/2023/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [7]
+(./ex1.aux)
+ ***********
+pLaTeX2e <2023-02-14u04>+1, based on
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-12-11>
+ ***********
+ ) 
 Here is how much of TeX's memory you used:
- 3232 strings out of 482860
- 63520 string characters out of 5959290
- 313135 words of memory out of 5000000
- 18522 multiletter control sequences out of 15000+600000
- 604187 words of font info for 99 fonts, out of 8000000 for 9000
- 264 hyphenation exceptions out of 8191
- 33i,9n,53p,1100b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 3646 strings out of 474833
+ 87735 string characters out of 5764027
+ 1931305 words of memory out of 5000000
+ 25921 multiletter control sequences out of 15000+600000
+ 632131 words of font info for 112 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 81i,10n,103p,849b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ex1.dvi (4 pages, 16080 bytes).
+Output written on ex1.dvi (7 pages, 18312 bytes).
