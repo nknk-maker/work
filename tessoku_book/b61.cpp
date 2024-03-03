@@ -11,16 +11,17 @@ int main() {
     // in
     cin >> N >> M;
     for (int i = 1; i <= M; i++) {
+        cin >> A[i] >> B[i];
         G[A[i]].push_back(B[i]);
         G[B[i]].push_back(A[i]);
     }
 
     // out answer
-    int ans = 0;
+    pair<int, int> ans = {0, 0};
     for (int i = 1; i <= N; i++) {
-        ans = max(ans, (int)G[i].size());
+        if (ans.second < G[i].size()) ans = make_pair(i, G[i].size());
     }
-    
-    cout << ans << endl;
+
+    cout << ans.first << endl;
     return 0;
 }
